@@ -27,4 +27,9 @@ export class PaisService {
         return this.http.get<Country[]>(url);
     }
 
+    mostrarPais(codigo: string): Observable<Country[]> {
+        const url = `${this.apiUrl}/alpha?codes=${codigo}`;
+        return this.http.get<Country[]>(url);
+    }
+
 }
