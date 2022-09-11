@@ -1,15 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-mostrar-opciones',
-  templateUrl: './mostrar-opciones.component.html',
-  styleUrls: ['./mostrar-opciones.component.css']
+  templateUrl: 'mostrar-opciones.component.html',
+  styleUrls: ['mostrar-opciones.component.css']
 })
 export class MostrarOpcionesComponent implements OnInit {
 
-  constructor() { }
+    constructor() {
+        // Do nothing
+    }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+        // Do nothing
+    }
 
 }

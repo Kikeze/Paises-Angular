@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from 'src/app/app.component';
 import { AppRoutingModule } from 'src/app/app-routing.module';
@@ -15,6 +16,7 @@ import { PaisModule } from 'src/app/pais/pais.module';
     imports: [
         BrowserModule,
         AppRoutingModule,
+        HttpClientModule,
         SharedModule,
         PaisModule
     ],
