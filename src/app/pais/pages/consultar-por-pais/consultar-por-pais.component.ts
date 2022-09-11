@@ -5,9 +5,9 @@ import { Country } from 'src/app/pais/interfaces/pais.interface';
 
 
 @Component({
-  selector: 'app-consultar-por-pais',
-  templateUrl: 'consultar-por-pais.component.html',
-  styleUrls: ['consultar-por-pais.component.css']
+    selector: 'app-consultar-por-pais',
+    templateUrl: 'consultar-por-pais.component.html',
+    styleUrls: ['consultar-por-pais.component.css']
 })
 export class ConsultarPorPaisComponent implements OnInit {
     termino: string = "";
@@ -47,10 +47,6 @@ export class ConsultarPorPaisComponent implements OnInit {
                 }
             });
 
-    }
-
-    sugerencias(event: string) {
-        this.existeError = false;
     }
 
 }
